@@ -74,6 +74,7 @@ body {
 
 .footer {
     margin-top: 64px;
+    margin-bottom: 200px;
     font-size: var(--title-font-size);
     line-height: var(--title-line-height);
     text-align: center;
