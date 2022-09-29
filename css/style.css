@@ -1,0 +1,93 @@
+:root {
+    --general-bg-color: #cebca9;
+    --header-bg-color: #fff;
+    --header-font-color: #0c1777;
+}
+
+body {
+    --title-font-size: 48px;
+    --title-line-height: 0.3;
+
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    font-family: "Roboto", sans-serif;
+
+    background-color: var(--general-bg-color);
+    color: var(--header-font-color);
+}
+
+.flex {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    max-width: 1440px;
+    border-radius: 16px;
+}
+
+/*
+**  HEADER
+*/
+
+.header {
+    margin-top: 80px;
+    padding: 20px 28px 8px;
+
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--header-bg-color);
+}
+
+.header-text > h1,
+.header-text p {
+    display: block;
+    font-size: inherit;
+    text-align: center;
+}
+
+.header-text > h1 {
+    color: #0a0c17;
+}
+
+.date {
+    color: #8b320c;
+}
+
+/*
+** MAIN
+*/
+
+.hero {
+    margin-top: 32px;
+}
+
+.hero-img {
+    border-radius: 16px;
+}
+
+/*
+** FOOTER
+*/
+
+.footer {
+    margin-top: 64px;
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    text-align: center;
+}
+
+.footer-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer-link:visited {
+    color: inherit;
+}
+
+.footer-link span {
+    color: #1b98f2;
+}
